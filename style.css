@@ -151,7 +151,7 @@ nav .navigation ul li a:hover {
   /* display: flex;
   justify-content: center;
   align-items: center; */
-  padding: 8vw 8vw  8vw 8vw;
+  padding: 8vw 8vw 8vw 8vw;
   text-align: center;
 }
 
@@ -218,18 +218,18 @@ nav .navigation ul li a:hover {
 #registration .reminder h1 {
   color: #ffff;
 }
-#registration .reminder .tm{
+#registration .reminder .tm {
   display: flex;
   margin-top: 40px;
 }
 
-.tm{
-    display: flex;
+.tm {
+  display: flex;
   margin-top: 40px;
   text-align: center;
   color: #ffff;
 }
- .date {
+.date {
   text-align: center;
   padding: 13px 33px;
   background: rgb(255, 255, 255, 0.25);
@@ -237,33 +237,33 @@ nav .navigation ul li a:hover {
   box-shadow: 0 8px 32px 0 rgb(31, 38 135, 0.37);
   border-radius: 5px;
   margin: 0 5px 10px 5px;
-  border: 1px solid rgb(255, 255, 255,0.18);
+  border: 1px solid rgb(255, 255, 255, 0.18);
   font-size: 1.1rem;
 }
-#registration .form{
-background: #ffff;
-border-radius: 8px;
-display: flex;
-flex-direction: column;
-padding:40px ;
-box-shadow:0 8px 32px 0 rgb(31,38, 135, 0.37) ;
+#registration .form {
+  background: #ffff;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  box-shadow: 0 8px 32px 0 rgb(31, 38, 135, 0.37);
 }
-#registration .form input::placeholder{
+#registration .form input::placeholder {
   color: #413c34;
   font-weight: 500;
   font-size: 1rem;
 }
-#registration .form input{
+#registration .form input {
   margin: 15px 0;
   padding: 15px 10px;
-   border: 2px solid rgb(84, 40, 241);
-   outline: none;
-   border-radius: 5px;
+  border: 2px solid rgb(84, 40, 241);
+  outline: none;
+  border-radius: 5px;
 }
-#registration .form .bnt{
+#registration .form .bnt {
   margin-top: 20px;
 }
-#registration .form  a.yellow {
+#registration .form input.yellow {
   text-decoration: none;
   font-size: 0.9rem;
   padding: 13px 35px;
@@ -278,85 +278,84 @@ box-shadow:0 8px 32px 0 rgb(31,38, 135, 0.37) ;
   color: #fdc93b;
   background: #ffff;
 }
-#experts{
-   padding: 8vw 8vw 8vw  8vw;
-  text-align: center; 
+#experts {
+  padding: 8vw 8vw 8vw 8vw;
+  text-align: center;
 }
-#experts .expert-box{
+#experts .expert-box {
   display: flex;
   flex-wrap: wrap;
   /* flex-direction: ; */
   justify-content: space-between;
   margin-top: 50px;
 }
- #experts .expert-box .profile{
+#experts .expert-box .profile {
   background: #ffff;
   padding: 30px 10px;
- } 
+}
 
- #experts .expert-box .profile img{
+#experts .expert-box .profile img {
   width: 100px;
   border-radius: 50%;
-
- }
- .pro-links{
+}
+.pro-links {
   margin-top: 10px;
- }
- .pro-links i{
+}
+.pro-links i {
   padding: 10px 13px;
-  border:1px solid rgb(21, 21, 100);
+  border: 1px solid rgb(21, 21, 100);
   cursor: pointer;
   transition: 0.3s ease;
- } .pro-links i:hover{
-  background: rgb(21,21 , 100);
-  border:1.5px solid rgb(21, 21, 100);
+}
+.pro-links i:hover {
+  background: rgb(21, 21, 100);
+  border: 1.5px solid rgb(21, 21, 100);
   cursor: pointer;
- }
+}
 
- footer{
+footer {
   padding: 8vw;
   background-color: #101c32;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
   flex-wrap: wrap;
- }
- footer .footer-col{
-   padding-bottom: 40px;
- }
+}
+footer .footer-col {
+  padding-bottom: 40px;
+}
 
- footer h3{
-  color:rgb(241, 240, 245);
+footer h3 {
+  color: rgb(241, 240, 245);
   font-weight: 600;
   padding-bottom: 20px;
- }
+}
 
- footer li{
+footer li {
   list-style: none;
   color: #7b838a;
   padding: 10px 0;
   font-size: 15px;
   cursor: pointer;
   transition: 0.3s;
- }
- footer li:hover{
-color: rgb(241, 240, 245);
- }
- footer p {
+}
+footer li:hover {
+  color: rgb(241, 240, 245);
+}
+footer p {
   color: #7b838a;
- }
- footer .subscribe{
+}
+footer .subscribe {
   margin-top: 20px;
- }
- footer input{
+}
+footer input {
   width: 220px;
   padding: 15px;
   background: #334f6c;
   outline: none;
   border: none;
   color: #ffff;
- }
-
+}
 
 footer .subscribe a.yellow {
   color: #ffff;
@@ -367,7 +366,7 @@ footer .subscribe a.yellow:hover {
   color: #fdc93b;
   background: #ffff;
 }
- footer .subscribe a {
+footer .subscribe a {
   text-decoration: none;
   font-size: 0.9rem;
   padding: 12px 15px;
@@ -375,29 +374,96 @@ footer .subscribe a.yellow:hover {
   font-weight: 600;
   border-radius: 5px;
 }
- .copyright{
-  margin-top:20px;
+.copyright {
+  margin-top: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%;
   flex-wrap: wrap;
- }  
+}
 
- .copyright .pro-links{
+.copyright .pro-links {
   margin-top: 10px;
- }
- .copyright .pro-links i{
-   background-color: #5f7185;
+}
+.copyright .pro-links i {
+  background-color: #5f7185;
   color: #ffff;
- }
- footer .copyright .pro-links i:hover{
-  background-color:#fdc93b;
-  color:#2c2c2c;
- }
-  footer  p{
+}
+footer .copyright .pro-links i:hover {
+  background-color: #fdc93b;
+  color: #2c2c2c;
+}
+footer p {
   color: #ffff;
- }
- 
-  
- 
+}
+#admin-login {
+  background: rgba(27, 28, 39, 0.37);
+  border-radius: 8px;
+  display: flex;
+  width: 600px;
+  height: 500px;
+  margin-left: 200px;
+  flex-direction: row;
+  padding: 40px;
+  box-shadow: 0 8px 32px 0 rgb(31, 38, 135, 0.37);
+}
+#admin-login .form {
+  padding-top: 200px;
+  flex-direction: row;
+  display: flex;
+}
+#admin-login .form input::placeholder {
+  color: #413c34;
+  font-weight: 500;
+  font-size: 1rem;
+}
+#admin-login .adim .form input {
+  margin: 15px 0;
+  padding: 15px 10px;
+  border: 2px solid rgb(84, 40, 241);
+  outline: none;
+  border-radius: 5px;
+}
+#admin-login .form .bnt {
+  margin-top: 20px;
+}
+#admin-login .form input.yellow {
+  text-decoration: none;
+  font-size: 0.9rem;
+  padding: 13px 35px;
+  background-color: #ffff;
+  font-weight: 600;
+  border-radius: 5px;
+  color: #ffff;
+  background: #fdc93b;
+  transition: 0.3s;
+}
+#admin-login .form a.yellow:hover {
+  color: #fdc93b;
+  background: #ffff;
+}
+.intro-box {
+  background: #848282;
+  border-radius: 8px;
+  display: flex;
+  width: 1000px;
+  height: 600px;
+  margin-left: 200px;
+  flex-direction: column;
+  padding: 40px;
+  padding-top: 200px;
+  box-shadow: 0 8px 32px 0 rgb(31, 38, 135, 0.37);
+}
+.intro-list {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.intro-list .round {
+  border-radius: 1rem;
+  padding-top: 30px;
+  align-items: center;
+}
