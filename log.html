@@ -13,7 +13,7 @@
       <div class="navigation">
         <ul>
           <li><a href="index.html">Home</a></li>
-          <li><a href="admin.html">Admin</a></li>
+          <li><a href="log.html">Log In</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="blog.html">Blog</a></li>
           <li><a href="courses.html">Courses</a></li>
@@ -22,20 +22,15 @@
       </div>
     </nav>
 
-    <!-- Admin Login Form -->
-    <section id="admin-login">
-      <div class="form">
-        <form action="admin" method="post">
-          <h2>Admin Login</h2><br><br>
-          <input type="text" placeholder="Name" name="" id="" /><br><br>
-        <input type="text" placeholder="Email Address" name="" id="" /><br><br>
-           <input type="password" placeholder="Password" name="password" required><br>
-         <div class="bnt">
-          <input type="submit" class="yellow" value="Login" />
-        </div
-        </form>
+      <div class="form" id="account">
+        <h3>Create Free Account NOW!</h3>
+        <input type="text" placeholder="Name" name="" id="name" />
+        <input type="text" placeholder="Email Address"  id="email" />
+        <input type="password" placeholder="Password"  id="password" />
+        <div class="bnt" id="button">
+          <input type="submit" class="yellow" value="Submit" id="submit" />
+        </div>
       </div>
-    </section>
 
      <footer>
       <div class="footer-col">
@@ -80,7 +75,7 @@
     </footer>
   </body>
 </html>
-
+<script src="script.js"></script>
   </body>
 </html>
 
