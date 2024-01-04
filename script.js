@@ -63,10 +63,10 @@ let btn = document.getElementById("btn");
  let storedData = JSON.parse(storedData1);
 
 if (obj.email === storedData.email && obj.loginPassword === storedData.password) {
-  console.log('byakunze');
+  console.log('thank you!');
   let log = document.getElementById("log");
   log.style.display = "none";
-  open("/courses.html");
+  open("/dashbord.html");
 }
 
  console.log("login data:", obj);
@@ -75,3 +75,5 @@ if (obj.email === storedData.email && obj.loginPassword === storedData.password)
 
  });
 
+
+ 
